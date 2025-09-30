@@ -1,8 +1,13 @@
 # XP Lore: India Unveiled
 
+<img height="800" alt="banner" src="https://github.com/user-attachments/assets/e6073209-c053-4694-a5ce-ed853282ef3d" />
+
+A **Smart India Hackathon 2025** project by Team **Cluster** to make exploring India and its culture fun, engaging, and rewarding.
+
+XP Lore gamifies the travel experience, encouraging users to discover Indian traditions, culture, and locally made products. The app integrates **XP-based progression, stamina/HP mechanics, badges, crypto rewards, and AI-powered trip planning** to attract even those who usually don’t find traveling interesting.
+
 ## Table of Contents
 
-- [XP Lore: India Unveiled](#xp-lore-india-unveiled)
 - [👥 Team – Cluster](#-team--cluster)
 - [🎯 Problem Statement](#-problem-statement)
 - [🏆 Objective](#-objective)
@@ -33,10 +38,6 @@
 - [📸 Screenshots](#-screenshots)
 - [📚 Research \& References](#-research--references)
 - [🏆 Smart India Hackathon 2025](#-smart-india-hackathon-2025)
-
-A **Smart India Hackathon 2025** project by Team **Cluster** to make exploring India and its culture fun, engaging, and rewarding.
-
-XP Lore gamifies the travel experience, encouraging users to discover Indian traditions, culture, and locally made products. The app integrates **XP-based progression, stamina/HP mechanics, badges, crypto rewards, and AI-powered trip planning** to attract even those who usually don’t find traveling interesting.
 
 ## 👥 Team – Cluster
 
@@ -372,11 +373,14 @@ graph LR
 ## ✨ Features (Pre-release)
 
 - AI-powered trip planning (Gemini – to be replaced by a custom model)
+
 - Save trip / Go on trip
 - Local storage for user statistics
 - XP-based level up and adventure titles
 
 Try out the pre-release from [release page](https://github.com/Najiya-Nazrin/Travel-and-Toursim/releases/tag/0.0.1).
+
+<img width="120" height="120" alt="logo" src="https://github.com/user-attachments/assets/0fff8539-c30a-4ab2-9b46-e59284471428" />
 
 ## 🔮 Future Enhancements
 
