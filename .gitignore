@@ -1,0 +1,44 @@
+# Flutter/Dart/Pub related
+frontend/.dart_tool/
+frontend/.packages
+frontend/.pub-cache/
+frontend/.pub/
+frontend/build/
+frontend/flutter_*.png
+frontend/*.lock
+frontend/*.log
+
+# iOS
+frontend/ios/Flutter/Flutter.framework
+frontend/ios/Flutter/Flutter.podspec
+frontend/ios/Flutter/Generated.xcconfig
+frontend/ios/Pods/
+frontend/ios/Runner.xcworkspace/
+frontend/ios/.symlinks/
+frontend/ios/Flutter/FlutterPluginRegistrant/
+
+# Android
+frontend/android/.gradle/
+frontend/android/app/build/
+frontend/android/local.properties
+frontend/android/.idea/
+frontend/android/captures/
+frontend/*.iml
+
+# VS Code
+frontend/.vscode/
+
+# IntelliJ/Android Studio
+frontend/.idea/
+frontend/*.iml
+frontend/*.ipr
+frontend/*.iws
+
+# macOS
+frontend/.DS_Store
+
+# Windows
+frontend/Thumbs.db
+
+# Linux
+frontend/*.desktop
