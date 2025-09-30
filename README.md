@@ -1,6 +1,6 @@
 # XP Lore: India Unveiled
 
-# Table of Contents
+## Table of Contents
 
 - [XP Lore: India Unveiled](#xp-lore-india-unveiled)
 - [👥 Team – Cluster](#-team--cluster)
