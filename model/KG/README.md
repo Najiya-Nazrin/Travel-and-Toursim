@@ -17,12 +17,12 @@ Nodes: 4683 | Edges: 9099
 ### **Node Types**
 | Node Type | Description | Example |
 |------------|-------------|----------|
-| `city` | Central hub representing a location | `city:Jaipur`, `city:Kochi` |
-| `place` | Tourist spot, hotel, or attraction | `place:Hawa Mahal`, `place:Hilton Hotel` |
+| `city` | Central hub representing a location | `city:Kozhikode`, `city:Kochi` |
+| `place` | Tourist spot, hotel, or attraction | `place:Indo-Portuguese Museum`, `place:Elite Hotel` |
 | `type` | Category of place | `type:attraction`, `type:hotel`, `type:zoo` |
-| `event` | Festival or cultural event | `event:Onam`, `event:Jaipur Literature Festival` |
-| `food` | Local dish or cuisine item | `food:Puttu`, `food:Dal Baati Churma` |
-| `cuisine` | Cuisine region | `cuisine:Kerala Cuisine`, `cuisine:Rajasthani Cuisine` |
+| `event` | Festival or cultural event | `event:Onam`, `event:Aarattu Mahotsavam` |
+| `food` | Local dish or cuisine item | `food:Duck Roast`, `food:Malabar Biryani` |
+| `cuisine` | Cuisine region | `cuisine:Kozhikode`, `cuisine:Alappuzha` |
 
 ---
 
@@ -30,13 +30,13 @@ Nodes: 4683 | Edges: 9099
 
 | Relation | Direction | Meaning | Example |
 |-----------|------------|----------|----------|
-| `located_in` | `place → city` | Place is located in a city | `Hawa Mahal → Jaipur` |
-| `instance_of` | `place → type` | Place belongs to a type | `Hawa Mahal → attraction` |
+| `located_in` | `place → city` | Place is located in a city | `Indo-Portuguese Museum → Kochi` |
+| `instance_of` | `place → type` | Place belongs to a type | `Indo-Portuguese Museum → attraction` |
 | `happens_in` | `event → city` | Event takes place in a city | `Onam → Kochi` |
-| `available_in` | `food → city` | Dish is available in a city | `Puttu → Kochi` |
-| `belongs_to_cuisine` | `food → cuisine` | Dish belongs to a cuisine | `Puttu → Kerala Cuisine` |
-| `similar_to` *(future)* | bidirectional | Computed from embeddings | `Hawa Mahal ↔ City Palace` |
-| `recommended_for` *(future)* | `place → preference` | Derived from user behavior | `Hawa Mahal → heritage` |
+| `available_in` | `food → city` | Dish is available in a city | `Appam with Stew → Kochi` |
+| `belongs_to_cuisine` | `food → cuisine` | Dish belongs to a cuisine | `Appam with Stew → Kochi` |
+| `similar_to` *(future)* | bidirectional | Computed from embeddings | `Indo-Portuguese Museum ↔ museum` |
+| `recommended_for` *(future)* | `place → preference` | Derived from user behavior | `Indo-Portuguese Museum → heritage` |
 
 ---
 
