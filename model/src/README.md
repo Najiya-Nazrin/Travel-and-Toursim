@@ -13,8 +13,6 @@ It recommends **tourist spots, hotels, foods, and cultural events** based on use
 
 source, destination, start_date, end_date, diet_preference
 
-```
-
 ---
 
 ## 🏗️ Architecture Summary
